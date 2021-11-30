@@ -5,8 +5,6 @@ import Typography from "@material-ui/core/Typography";
 import SettingsIcon from "@material-ui/icons/Settings";
 import { makeStyles } from "@material-ui/core/styles";
 
-import Logo from "./LagaanPoolAdminLogo";
-
 const useStyles = makeStyles({
   title: {
     flex: 1,
@@ -48,7 +46,6 @@ const CustomAppBar = (props: any) => {
         className={classes.title}
         id="react-admin-title"
       />
-      <Logo />
       <span className={classes.spacer} />
     </AppBar>
   );

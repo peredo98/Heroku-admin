@@ -19,7 +19,7 @@ import user from "./pages/user";
 import game from "./pages/game";
 import team from "./pages/team";
 
-const dataProvider = simpleRestProvider(process.env.REACT_APP_API);
+const dataProvider = simpleRestProvider(`${process.env.REACT_APP_API}`);
 
 // Setup i18n
 const i18nProvider = polyglotI18nProvider(
